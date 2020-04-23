@@ -21,3 +21,8 @@ public class UniversityCourse {
         }
     }
 }
+public int getNumberOfRegsiteredStudents()
+{
+    int num = students.size();
+    return num;
+}
