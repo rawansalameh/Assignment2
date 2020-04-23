@@ -21,3 +21,8 @@ public class UniversityCourse {
         }
     }
 }
+public boolean isRegistered(String studentName)
+{
+    return students.contains(studentName);
+}
+
