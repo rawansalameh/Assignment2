@@ -21,8 +21,16 @@ public class UniversityCourse {
         }
     }
 }
+
 public boolean isRegistered(String studentName)
 {
     return students.contains(studentName);
+}
+
+\
+public int getNumberOfRegsiteredStudents()
+{
+    int num = students.size();
+    return num;
 }
 
